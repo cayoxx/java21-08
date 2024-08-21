@@ -1,0 +1,71 @@
+package vinteum08;
+
+public class ObjUser {
+	public static void main(String[] args) {
+
+
+	User rudrian = new User ();
+	User julio = new User ();
+	User nicolle = new User ();
+	User astolfo_brito = new User ();
+	
+	rudrian.setid(1);
+	rudrian.setnome("Rudrian AD");
+	rudrian.setusuario("MCRudrian");
+	rudrian.setpassword(1234);
+	rudrian.setpermissao("ADM");
+	
+	julio.setid(2);
+	julio.setnome("Julio CM");
+	julio.setusuario("JulioFortniteBR");
+	julio.setpassword(1235);
+	julio.setpermissao("Comum");
+	
+	nicolle.setid(3);
+	nicolle.setnome("Nicolle AG");
+	nicolle.setusuario("NicolleCaneta");
+	nicolle.setpassword(1236);
+	nicolle.setpermissao("Comum");
+	
+	astolfo_brito.setid(4);
+	astolfo_brito.setnome("Astolfo Brito Maranhão");
+	astolfo_brito.setusuario("Brito");
+	astolfo_brito.setpassword(9999);
+	astolfo_brito.setpermissao("ADM");
+	
+	System.out.println("ID: " + rudrian.getid());
+	System.out.println("Nome: " + rudrian.getnome());
+	System.out.println("Usuário: " + rudrian.getusuario());
+	System.out.println("Password: " + rudrian.getpassword());
+	System.out.println("Permissão: " + rudrian.getpermissao());
+
+	System.out.println("");
+
+	System.out.println("ID: " + julio.getid());
+	System.out.println("Nome: " + julio.getnome());
+	System.out.println("Usuário: " + julio.getusuario());
+	System.out.println("Password: " + julio.getpassword());
+	System.out.println("Permissão: " + julio.getpermissao());
+
+	System.out.println("");
+	
+	System.out.println("ID: " + nicolle.getid());
+	System.out.println("Nome: " + nicolle.getnome());
+	System.out.println("Usuário: " + nicolle.getusuario());
+	System.out.println("Password: " + nicolle.getpassword());
+	System.out.println("Permissão: " + nicolle.getpermissao());
+
+	System.out.println("");
+	
+	System.out.println("ID: " + astolfo_brito.getid());
+	System.out.println("Nome: " + astolfo_brito.getnome());
+	System.out.println("Usuário: " + astolfo_brito.getusuario());
+	System.out.println("Password: " + astolfo_brito.getpassword());
+	System.out.println("Permissão: " + astolfo_brito.getpermissao());
+
+	System.out.println("");
+
+
+
+}
+}
