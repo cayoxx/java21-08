@@ -1,0 +1,55 @@
+package vinteum08;
+
+public class pc {
+
+
+			
+			String preco;
+			String cor;
+			String marca;
+			String modelo;
+			
+			public String getmarca() {
+				return marca;
+			}
+			public void setmarca(String marca) {
+				this.marca = marca;
+			}
+			public String getpreco() {
+				return preco;
+			}
+			public void setpreco(String preco) {
+				this.preco = preco;
+			}
+			public String getcor() {
+				return cor;
+			}
+			public void setcor(String cor) {
+				this.cor = cor;
+			}
+			public String getmodelo() {
+				return modelo;
+			}
+			public void setmodelo(String modelo) {
+				this.modelo = modelo;
+			}
+			public String liga () {
+				return "Ligar";
+			}
+			public String desliga () {
+				return "Desligar";
+			}
+			public String aperta () {
+				return "Apertar";
+			}
+			public String mostra () {
+				return "Mostrar";
+			}
+			public String brilha () {
+				return "Brilhar";
+			}
+
+		}
+
+	
+
