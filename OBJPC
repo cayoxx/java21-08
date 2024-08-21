@@ -1,0 +1,73 @@
+package vinteum08;
+
+import vinteum08.pc;
+
+public class objpc {
+
+	public static void main(String[] args) {
+		pc PC = new pc ();
+		pc MOUSE = new pc();
+		pc MONITOR = new pc();
+		pc TECLADO = new pc();
+
+		PC.setpreco("R$ 3.000,00");
+		PC.setcor("Preto");
+		PC.setmarca("Pichau");
+		PC.setmodelo("Gamer");
+		
+		MOUSE.setpreco("R$ 72,00");
+		MOUSE.setcor("Branco");
+		MOUSE.setmarca("Logitech");
+		MOUSE.setmodelo("Gamer");
+		
+		MONITOR.setpreco("R$ 500,00");
+		MONITOR.setcor("Verde");
+		MONITOR.setmarca("Pichau");
+		MONITOR.setmodelo("Casual");
+		
+		TECLADO.setpreco("R$ 30,00");
+		TECLADO.setcor("Amarelo");
+		TECLADO.setmarca("NewLink");
+		TECLADO.setmodelo("Casual");
+		
+		System.out.println("PC");
+		System.out.println("Preço: " + PC.getpreco());
+		System.out.println("Cor: " + PC.getcor());
+		System.out.println("Marca: " + PC.getmarca());
+		System.out.println("Modelo: " + PC.getmodelo());
+		System.out.println(PC.liga());
+		System.out.println(PC.desliga());
+		System.out.println(PC.brilha());
+
+
+		System.out.println("");
+
+		
+		System.out.println("MOUSE");
+		System.out.println("Preço: " + MOUSE.getpreco());
+		System.out.println("Cor: " + MOUSE.getcor());
+		System.out.println("Marca: " + MOUSE.getmarca());
+		System.out.println("Modelo: " + MOUSE.getmodelo());
+		System.out.println(PC.aperta());
+		System.out.println(PC.brilha());
+
+		System.out.println("");
+		
+		System.out.println("MONITOR");
+		System.out.println("Preço: " + MONITOR.getpreco());
+		System.out.println("Cor: " + MONITOR.getcor());
+		System.out.println("Marca: " + MONITOR.getmarca());
+		System.out.println("Modelo: " + MONITOR.getmodelo());
+		System.out.println(PC.mostra());
+		System.out.println(PC.brilha());
+		System.out.println("");
+		
+		System.out.println("TECLADO");
+		System.out.println("Preço: " + TECLADO.getpreco());
+		System.out.println("Cor: " + TECLADO.getcor());
+		System.out.println("Marca: " + TECLADO.getmarca());
+		System.out.println("Modelo: " + TECLADO.getmodelo());
+		System.out.println(PC.aperta());
+	}
+
+}
